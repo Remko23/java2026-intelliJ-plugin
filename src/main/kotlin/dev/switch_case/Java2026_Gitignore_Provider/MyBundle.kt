@@ -1,4 +1,4 @@
-package com.github.remko23.java2026intellijplugin
+package dev.switch_case.Java2026_Gitignore_Provider
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

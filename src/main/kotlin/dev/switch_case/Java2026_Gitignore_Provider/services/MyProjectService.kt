@@ -1,9 +1,9 @@
-package com.github.remko23.java2026intellijplugin.services
+package dev.switch_case.Java2026_Gitignore_Provider.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.remko23.java2026intellijplugin.MyBundle
+import dev.switch_case.Java2026_Gitignore_Provider.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {

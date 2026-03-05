@@ -1,4 +1,4 @@
-package com.github.remko23.java2026intellijplugin.startup
+package dev.switch_case.Java2026_Gitignore_Provider.startup
 
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
