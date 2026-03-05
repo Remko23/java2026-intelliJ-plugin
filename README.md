@@ -18,11 +18,13 @@
 - [ ] Configure the [CODECOV_TOKEN](https://docs.codecov.com/docs/quick-start) secret for automated test coverage reports on PRs
 
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
+**Gitignore Generator** — an IntelliJ plugin that automatically detects project technologies (Gradle, Maven, Node.js, Python, etc.) and generates a comprehensive `.gitignore` file based on templates from the official [github/gitignore](https://github.com/github/gitignore) repository.
 
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
-
-To keep everything working, do not remove `<!-- ... -->` sections. 
+Features:
+- Automatic detection of project build tools and languages
+- 16 bundled `.gitignore` templates (Java, Kotlin, Gradle, Maven, Node, Python, Android, Go, Rust, Scala, Swift, Ruby, JetBrains, macOS, Windows, Linux)
+- Interactive dialog with search, checkbox selection, and live preview
+- Smart merging — appends to existing `.gitignore` without duplicating entries
 <!-- Plugin description end -->
 
 ## Installation
