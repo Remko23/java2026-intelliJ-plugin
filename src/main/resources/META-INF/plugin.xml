@@ -1,15 +1,15 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.remko23.java2026intellijplugin</id>
-    <name>java2026-intelliJ-plugin</name>
-    <vendor>remko23</vendor>
+    <id>dev.switch_case.Java2026_Gitignore_Provider</id>
+    <name>Java2026-Gitignore-Provider</name>
+    <vendor>switch_case</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.remko23.java2026intellijplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.remko23.java2026intellijplugin.startup.MyProjectActivity" />
+        <toolWindow factoryClass="dev.switch_case.Java2026_Gitignore_Provider.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <postStartupActivity implementation="dev.switch_case.Java2026_Gitignore_Provider.startup.MyProjectActivity" />
     </extensions>
 </idea-plugin>

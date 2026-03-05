@@ -1,4 +1,4 @@
-package com.github.remko23.java2026intellijplugin
+package dev.switch_case.Java2026_Gitignore_Provider
 
 import com.intellij.ide.highlighter.XmlFileType
 import com.intellij.openapi.components.service
@@ -6,7 +6,7 @@ import com.intellij.psi.xml.XmlFile
 import com.intellij.testFramework.TestDataPath
 import com.intellij.testFramework.fixtures.BasePlatformTestCase
 import com.intellij.util.PsiErrorElementUtil
-import com.github.remko23.java2026intellijplugin.services.MyProjectService
+import dev.switch_case.Java2026_Gitignore_Provider.services.MyProjectService
 
 @TestDataPath("\$CONTENT_ROOT/src/test/testData")
 class MyPluginTest : BasePlatformTestCase() {
